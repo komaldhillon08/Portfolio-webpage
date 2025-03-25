@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+}
+:root{
+    --padding-:20px;
+    --p-top-:20px;
+    --p-bottom-:20px;
+    --p-top-bottom:20px 0px;
+    --p-left-right:0px 20px;
+    --margin- :20px;
+    --m-top:20px;
+    --m-bottom:20px;
+    --m-top-bottom:20px 0px;
+    --m-left-right:0px 20px;
+    --page-end-margin:50px;
+
+}
