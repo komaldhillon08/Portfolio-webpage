@@ -43,11 +43,10 @@ a {
 
 .sidebar {
     background-color: #ffd7d4;
-    
     height: 100vh;
 }
 
-.main {   
+.dasboard {   
     width: 80%;
 }
 
@@ -108,4 +107,18 @@ a {
 }
 .download-btn:hover{
     background-color: #ffb8b2;
+}
+
+
+/* blog   css */
+.blog-items{
+    margin-left: 50px;
+    margin-top: 70px;
+}
+.blog-items h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.blog-items p{
+    margin-bottom: 10px;
 }
