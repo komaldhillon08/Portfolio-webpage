@@ -24,9 +24,10 @@
     }
     .dev-info {
         width: 100%;
-        
-        align-items: center;
         display: flex;
+        align-content: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
     }
     .dev-m {
         font-size: 14px;
