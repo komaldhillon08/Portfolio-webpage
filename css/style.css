@@ -39,11 +39,13 @@ a {
 
 .container {
     display: flex;
+
 }
 
 .sidebar {
     background-color: #ffd7d4;
     height: 100vh;
+    transition: all 0.6s ease-in;
 }
 
 .dasboard {   
@@ -70,6 +72,7 @@ a {
     margin: 70px auto;
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .dev-pic {
@@ -108,7 +111,17 @@ a {
 .download-btn:hover{
     background-color: #ffb8b2;
 }
-
+.tog-img{
+}
+.ham{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+img.cross-img {
+    margin-left: 150px;
+}
 
 /* blog   css */
 .blog-items{
@@ -120,5 +133,10 @@ a {
     margin-bottom: 10px;
 }
 .blog-items p{
+
     margin-bottom: 10px;
+}
+.sidebargo{
+    position: absolute;
+    transform: translate(-443px , 0px );
 }

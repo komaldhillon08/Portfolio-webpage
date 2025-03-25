@@ -1,3 +1,4 @@
+
 @media(max-width:1199px){
     .dev-pic img {
         height: 50.7vh;
@@ -8,19 +9,20 @@
     .dev-m{
         font-size: 20px;
     }
+
 }
 @media(max-width:991px){
     .sidebar nav li a {
         font-size: 13px;
-       
     }
+    img.cross-img {
+        margin-left: 114px;
+    }
+
 }
 @media(max-width:767px){
     .dev-pic {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        display: flex;
+    display: none;
     }
     .dev-info {
         width: 100%;
